@@ -16,7 +16,7 @@ This repository is forked from https://github.com/sequenceiq/docker-ambari with 
 
 2. `$ amb-start-cluster <number-of-cluster>` startup a cluster with consul
 
-3. Launch ambari-shell by `ambari-shell`
+3. Launch ambari-shell by `amb-shell`
 
 4. `blueprint add --file data_scientist.bp` to add the blueprint for data scientist pre-installed software
 
