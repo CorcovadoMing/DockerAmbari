@@ -15,11 +15,6 @@
       }
     },
     {
-      "hbase-site" : {
-        "zookeeper.recovery.retry" : "10"
-      }
-    },
-    {
       "zeppelin-env": {
         "pid_dir": "/var/run/zeppelin-notebook"
       }
@@ -85,9 +80,6 @@
           "name": "METRICS_COLLECTOR"
         },
         {
-          "name": "HBASE_CLIENT"
-        },
-        {
           "name": "HCAT"
         },
         {
@@ -141,9 +133,6 @@
           "name": "RESOURCEMANAGER"
         },
         {
-          "name": "HBASE_MASTER"
-        },
-        {
           "name": "HIVE_METASTORE"
         },
         {
@@ -171,9 +160,6 @@
       "components": [
         {
           "name": "NODEMANAGER"
-        },
-        {
-          "name": "HBASE_REGIONSERVER"
         },
         {
           "name": "METRICS_MONITOR"
